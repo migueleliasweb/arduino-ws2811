@@ -1,9 +1,10 @@
 void setup() {
-  // put your setup code here, to run once:
-
+  //The last two bits are TX(1) and RX(2)
+  DDRD = B11111100;  // sets Arduino pins 3 to 7 as outputs, pin 0 and 1 as input
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  PORTD = B10101000;// sets digital pin 3 to HIGH
+  delayMicroseconds(50);
+  PORTD = B00001000;// sets digital pin 3 to LOW
 }
