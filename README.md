@@ -7,3 +7,4 @@
 - https://github.com/adafruit/Adafruit_NeoPixel
 - https://github.com/lrasinen/ws2811/blob/master/pwm_led.ino
 - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+- https://www.youtube.com/watch?v=VAa4duqMrgs
