@@ -1,10 +1,57 @@
-void setup() {
-  //The last two bits are TX(1) and RX(2)
-  DDRD = B11111100;  // sets Arduino pins 3 to 7 as outputs, pin 0 and 1 as input
+#define OUTPUT_PIN 8
+
+void setup()
+{
+    pinMode(OUTPUT_PIN, OUTPUT);
 }
 
-void loop() {
-  PORTD = B10101000;// sets digital pin 3 to HIGH
-  delayMicroseconds(50);
-  PORTD = B00001000;// sets digital pin 3 to LOW
+
+void setHigh()
+{
+    //HIGH for 1.2us
+    PORTB = B0000001;
+    PORTB = B0000001;
+
+    //LOW for 0.5us
+    PORTB = B0000000;
+}
+
+void setLow()
+{
+    //HIGH for 1.3us
+    PORTB = B0000001;
+    PORTB = B0000001;
+
+    //LOW for 2.0us
+    PORTB = B0000000;
+    PORTB = B0000000;
+    PORTB = B0000000;
+}
+
+void loop()
+{
+    setHigh();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setLow();
+    setHigh();
+    setHigh();
 }

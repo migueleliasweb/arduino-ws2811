@@ -8,4 +8,6 @@
 - https://github.com/lrasinen/ws2811/blob/master/pwm_led.ino
 - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
 - https://www.youtube.com/watch?v=VAa4duqMrgs
+- http://kevindarrah.com/download/arduino_code/WS1812_V4_FOR_VIDEO.ino
+- http://www.billporter.info/2010/08/18/ready-set-oscillate-the-fastest-way-to-change-arduino-pins/
 - http://www.atmel.com/Images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Summary.pdf
